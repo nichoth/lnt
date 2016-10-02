@@ -1,6 +1,6 @@
 {
   "name": "lnt",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Command line helper for eslint",
   "main": "index.js",
   "bin": {
