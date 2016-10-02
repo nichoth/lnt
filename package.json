@@ -1,0 +1,45 @@
+{
+  "name": "lnt",
+  "version": "1.0.0",
+  "description": "Command line helper for eslint",
+  "main": "index.js",
+  "bin": {
+    "lnt": "./bin/cli.js"
+  },
+  "scripts": {
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags && npm publish",
+    "test": "eslint **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nichoth/lnt.git"
+  },
+  "keywords": [
+    "lint",
+    "eslint",
+    "js",
+    "linter",
+    "cli",
+    "command",
+    "line"
+  ],
+  "author": "Nick Thomas <nichoth@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nichoth/lnt/issues"
+  },
+  "homepage": "https://github.com/nichoth/lnt#readme",
+  "dependencies": {
+    "cp-file": "^3.2.0",
+    "eslint": "^3.7.0",
+    "meow": "^3.7.0",
+    "npm-install-package": "^1.0.2",
+    "run-parallel": "^1.1.6",
+    "write-pkg": "^1.0.0",
+    "xtend": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint-config-minlint": "^1.0.2"
+  }
+}
