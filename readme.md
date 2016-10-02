@@ -2,7 +2,7 @@
 
 Command line helper for installing eslint config files.
 
-Tools like `standard` and `xo` are good, but eslint already does everything you need, and the use of shareable config files provides an ideal way to extend lint settings.
+Tools like `standard` and `xo` are good, but eslint already does everything you need, and keeping linting in a separate npm module means that your editor wont be able to read `.eslintrc`, so no in-editor linting without another plugin. Using standard eslint files means your editor works already, and the use of shareable config files provides an ideal way to extend or override lint settings. 
 
 
 ## install
