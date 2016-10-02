@@ -9,7 +9,7 @@ But so much typing to set up eslint! This module stops the typing.
 
 ## install
 
-    $ npm install lnt
+    $ npm install -g lnt
 
 
 ## example
